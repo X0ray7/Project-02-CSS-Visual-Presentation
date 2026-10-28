@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    padding: 40px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* تنسيق الكروت وإضافة خاصية الانتقال السلس (transition) */
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* تحديد الخاصية ووقت الانتقال السلس */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* تأثير الـ Hover المطلوب في البونص */
+.card:hover {
+    transform: translateY(-8px) scale(1.05); /* يرتفع للأعلى قليلاً ويكبر حجماً */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* تنسيق الزر والتفاعل معه */
+.btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-4px) scale(1.05);
+    background-color: #2980b9;
+}

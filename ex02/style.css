@@ -1,0 +1,33 @@
+.squar {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #2ecc71;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+}
+
+.capsule {
+    width: 150px;
+    height: 75px;
+    background-color: #f1c40f;
+    border-radius: 50px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #9b59b6;
+}
